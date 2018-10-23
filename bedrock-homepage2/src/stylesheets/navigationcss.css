@@ -1,0 +1,75 @@
+#navbarId{
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
+}
+#mainDiv{
+	/*background-color: #E1E1E8;*/
+	background-color: #ffffff;
+}
+
+#welcomeId{
+	font-size: 60px;
+	margin-top: 70px;
+	margin-left: 15px;
+}
+#dateId{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#employeeNameId{
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.workTitle{
+	margin-top: 15px;
+}
+#introId{
+	/*margin-top: 10px;*/
+	margin-left: 20px;
+}
+.workButtons{
+	margin-top: 10px;
+}
+#employeeContainerId{
+	padding-top: 5px;
+	color: white;
+	/*background-color: #4D5061;*/
+	background: linear-gradient(to top, #2D7E84 0%, #33658A 100%);
+
+	padding-bottom: 10px;
+
+}
+#employeeContainerId:hover{
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
+	transition-duration: 0.5s;
+
+}
+#welcomeDivId:hover{
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
+	transition-duration: 0.5s;
+
+}
+.workLinks{
+	text-align: center;
+}
+.workLinks:hover{
+	box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.75);
+	/*background-color: #5D5F6F;*/
+	background: linear-gradient(to top, #2D7E84 0%, #33658A 100%);
+	
+	font-size: 17px;
+}
+#dropdownItem:hover{
+	color: #1768AC;
+	font-size: 15px;
+}
+.employeeTitle{
+	font-weight: 900;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+}

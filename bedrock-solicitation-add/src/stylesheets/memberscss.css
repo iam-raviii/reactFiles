@@ -1,0 +1,95 @@
+
+#wholeDiv{
+	/*background-color: #00000090;*/
+	height: 100vh;
+	margin-top: -10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	/*background: linear-gradient (to bottom, #337ab3 0%, #b3e0ff  100%);
+*/
+	/*background: linear-gradient(to top, #2D7E84 0%, #33658A 100%);*/
+	/*background: linear-gradient(to top, #ffffff 0%, #BE96A6 100%);*/
+	background: linear-gradient(to top, #ABC8C0 0%, #5F87B3 100%);
+}
+
+#mainDiv{
+	display: block;
+	margin: auto;
+	width: 700px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 10px;
+	background-color: #61707380;
+	/*background: linear-gradient (to bottom, )*/
+	border-radius: 20px;
+
+
+}
+.formInput{
+	margin-left: 20px;
+	width: 200px;
+	font-size: 18px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	padding-left: 10px ;
+	height: 28px;
+	background-color: #00000090;
+	color: white;
+	border-color: #000000; 
+}
+.formInput:focus{
+	outline: none;
+}
+
+.formTitles{
+	color:  #000000;
+	font-weight: 600;
+}
+.formTitles:hover {
+	color: white;
+}
+.checkbox{
+	margin-left: 20px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 22px;
+	height: 22px;
+	
+}
+.submitId{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	/*border-radius: 12px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 600;
+	background-color: transparent;
+
+}
+.submitId:focus{
+	outline: none;
+}
+.submitId:hover{
+	color: white;
+}
+#buttonDiv{
+	background-color: #61707380;
+	width: 350px;
+	padding-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+#formHeading{
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+}
+.typableInput{
+	width: 350px;
+}
